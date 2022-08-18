@@ -1,0 +1,106 @@
+:root{
+    --primary-color: #d0d1d2;
+    --secondary-color: #266bff;
+    --primary-border-radius:8px;
+    --primary-border-style: 1px solid var(--primary-color);
+    --primary-font-size: 16px;
+    --secondary-font-size: 22px;
+    --tertiary-font-size: 17px;
+    --primary-font-style:'Roboto', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+.container{
+    width: 81%;
+    height: 456px;
+    padding-bottom: 33%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.texto{
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+h1{
+    font-size: 400%;
+    color: var(--secondary-color);
+    margin-left: 25%;
+    font-family: var(--primary-font-style);
+}
+h2{
+    height: 50%;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: -4%;
+    font-size: 150%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+fieldset{
+    width: 350px;
+    height: 300px;
+    padding-top: 4%;
+    padding-left: 4%;
+    color: var(--primary-color);
+    background-color: #ffffff;
+    border: var(--primary-border-style);
+    border-radius: var(--primary-border-radius);
+    box-shadow: 3px 3px 3px var(--primary-color);
+}
+#email{
+    height: 16%;
+    width: 93%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    border: var(--primary-border-style);
+    border-radius: var(--primary-border-radius);
+    font-size: var(--primary-font-size);
+}
+#senha{
+    height: 16%;
+    width: 93%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    border: var(--primary-border-style);
+    border-radius: var(--primary-border-radius);
+    font-size: var(--primary-font-size);
+}
+#button1{
+    height: 17%;
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 1%;
+    border: var(--primary-border-style);
+    color: #ffffff;
+    background-color: var(--secondary-color);
+    border-radius: var(--primary-border-radius);
+    font-size: var(--secondary-font-size);
+    font-family: var(--primary-font-style);
+    cursor: pointer;
+}
+p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    color:var(--secondary-color);
+    font-size: var(--tertiary-font-size);
+    border-bottom: var(--primary-border-style);
+    cursor: pointer;
+}
+.botao2{
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    padding-bottom: 4%;
+}
+#button2{
+    width: 50%;
+    border: var(--primary-border-style);
+    color: #ffffff;
+    background-color: #21b22d;
+    border-radius: var(--primary-border-radius);
+    font-size: var(--tertiary-font-size);
+    font-family: var(--primary-font-style);
+    cursor: pointer;
+}
